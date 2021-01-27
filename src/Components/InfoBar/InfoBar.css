@@ -1,0 +1,55 @@
+.InfoBar {
+  max-width: 70vw;
+  text-align: center;
+  color: #000000;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px black;
+  bottom: 0px;
+  position: fixed;
+  background-color: white;
+}
+
+.InfoBar p {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.InfoBar p:hover {
+  text-decoration: underline;
+  color: #464646;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+#short {
+  display: none;
+}
+
+@media only screen and (max-width:480px) and (min-width:100px){
+  .InfoBar {
+    max-width: 100vw;
+    padding: 5px 20px;
+  }
+
+  #long {
+    display:none;
+  }
+
+  #short {
+    display:inline-block;
+  }
+}
+
+@media only screen and (max-width:945px) and (min-width:481px){
+  .InfoBar {
+    max-width: 80vw;
+    padding: 5px;
+  }
+}

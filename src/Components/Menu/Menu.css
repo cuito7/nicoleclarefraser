@@ -1,0 +1,43 @@
+.MenuBar {
+  width: 15%;
+  text-align: left;
+  position: fixed;
+  color: rgb(0, 0, 0);
+  margin: auto;
+  display: block;
+  top: 40%;
+  transform: translateY(-50%);
+  right: 0px;
+  padding: 20px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.MenuBar p {
+  cursor: pointer;
+}
+
+.MenuBar p:hover {
+  text-decoration: underline;
+  color: #464646;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width:945px){
+  .MenuBar {
+    width: 100%;
+    text-align: left;
+    position: fixed;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    padding: 10px;
+    background-color: white;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+}

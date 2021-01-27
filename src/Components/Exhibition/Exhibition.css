@@ -1,0 +1,167 @@
+.Exhibition {
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  max-width: 70vw;
+  padding-top: 15vh;
+}
+
+.Exhibition .text {
+  text-align: left;
+}
+
+.Exhibition a {
+  text-decoration: none;
+}
+
+.Exhibition a:hover{
+  color: #464646;
+}
+
+.Exhibition a:visited, a:active{
+  color: black;
+}
+
+.images img {
+  max-width: 70vw;
+  max-height: 75vh;
+  width: auto;
+  height: auto;
+}
+
+.Exhibition h1 {
+  font-size: 3em;
+}
+
+.imageContainer {
+  max-height: 80vh;
+  max-width: 75vw;
+  padding-top: 3vh;
+  margin-top: 15vh;
+  width: auto;
+  height: auto;
+  line-height: 0vh;
+}
+
+.imageInfoContainer {
+  text-align: center;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:3vh;
+  font-size: 0.85em;
+}
+
+@media only screen and (max-width: 390px) and (min-width: 100px){
+  .Exhibition {
+    max-width: 90vw;
+  }
+
+  .images img {
+    max-width: 100%;
+  }
+
+  .images {
+    max-width: 95vw;
+  }
+
+  .imageContainer {
+    max-width: 100%;
+  }
+
+  .text {
+    width: 90%;
+  }
+
+  .imageInfoContainer {
+    max-width: 100%;
+    width: 100%;
+    font-size: 0.65em;
+  }
+
+  .Exhibition a {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:480px) and (min-width: 391px){
+  .Exhibition {
+    max-width: 90vw;
+  }
+
+  .images img {
+    max-width: 90vw;
+  }
+
+  .images {
+    max-width: 90vw;
+  }
+
+  .imageContainer {
+    max-width: 90vw;
+  }
+
+  .imageInfoContainer {
+    max-width: 100%;
+    width: 100%;
+    font-size: 0.75em;
+  }
+
+  .Exhibition a {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:945px) and (min-width: 781px){
+  .Exhibition {
+    max-width: 80vw;
+  }
+
+  .images img {
+    max-width: 80vw;
+  }
+
+  .images {
+    max-width: 80vw;
+  }
+
+  .imageContainer {
+    max-width: 80vw;
+  }
+
+  .imageInfoContainer {
+    max-width: 90vw;
+  }
+}
+
+@media only screen and (max-width:780px) and (min-width: 481px){
+  .Exhibition {
+    max-width: 80vw;
+  }
+
+  .images img {
+    max-width: 80vw;
+  }
+
+  .images {
+    max-width: 80vw;
+  }
+
+  .imageContainer {
+    max-width: 80vw;
+  }
+
+  .imageInfoContainer {
+    max-width: 90vw;
+  }
+
+  .imageInfoContainer {
+    font-size: 0.8em;
+  }
+
+  .Exhibition a {
+    display: none;
+  }
+}

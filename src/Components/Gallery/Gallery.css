@@ -1,0 +1,28 @@
+.Gallery {
+  text-align: center;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  height: 75vh;
+}
+
+.Gallery img {
+  max-height: 80vh;
+  max-width: 90vw;
+  margin-top: 8vh;
+  margin-bottom: 12vh;
+  width: auto;
+  height: auto;
+}
+
+@media only screen and (max-width:480px){
+  .Gallery {
+    max-width: 90vw;
+    padding-top: 20%;
+  }
+
+  .Gallery img {
+    max-width: 90vw;
+  }
+}

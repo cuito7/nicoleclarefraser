@@ -1,0 +1,22 @@
+.ImageContainer {
+  width: 70%;
+  text-align: center;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top: 5%;
+}
+
+.ImageContainer img {
+  display: block;
+  max-width:80%;
+  max-height:80%;
+  width: auto;
+  height: auto;
+}
+
+.ImageInfo {
+  text-align: left;
+  line-height: 0em;
+}
